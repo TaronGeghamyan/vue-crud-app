@@ -1,10 +1,6 @@
 <template>
   <div class="home">
-    <CrudTable
-      table-name=""
-      prefix="states_cases"
-      class="table table-bordered"
-    />
+    <CrudTable table-name="History" class="table table-bordered" />
   </div>
 </template>
 
@@ -18,5 +14,5 @@ import CrudTable from "@/components/CrudTable.vue";
     CrudTable,
   },
 })
-export default class HomeView extends Vue {}
+export default class HistoryView extends Vue {}
 </script>

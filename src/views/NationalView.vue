@@ -2,7 +2,7 @@
   <div class="home">
     <CrudTable
       table-name=""
-      prefix="states_cases"
+      prefix="national_cases"
       class="table table-bordered"
     />
   </div>
@@ -18,5 +18,5 @@ import CrudTable from "@/components/CrudTable.vue";
     CrudTable,
   },
 })
-export default class HomeView extends Vue {}
+export default class NationalView extends Vue {}
 </script>

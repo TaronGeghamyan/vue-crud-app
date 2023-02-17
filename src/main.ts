@@ -2,6 +2,6 @@ import { createApp } from "vue";
 import App from "./App.vue";
 import "./registerServiceWorker";
 import router from "./router";
-import store from "./store";
+import states from "@/store/story";
 
-createApp(App).use(store).use(router).mount("#app");
+createApp(App).use(states).use(router).mount("#app");

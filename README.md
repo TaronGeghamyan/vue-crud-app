@@ -1,5 +1,8 @@
 # vue-crud-app
 
+``MVP CRUD DYNAMIC TABLE``
+``VUEX store, REST API with prefix source, vue-router``
+
 ## Project setup
 ```
 npm install
